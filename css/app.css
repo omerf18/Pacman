@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin:auto;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.board-container {
+  text-align: center;
+  display: inline-block;
+  margin:auto;
+  max-width: 40%;
+}
+
+.win-modal {
+  height: 100px;
+  width: 200px;
+  border: 5px green solid;
+  background-color: #ffffff00;
+  color: green;
+  font-size: 35px;
+  font-weight: 900;
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  margin-left: 150px;
+  margin-top: 100px;
+  cursor: pointer;
+  display: none;
+}
+
+.lose-modal {
+  height: 100px;
+  width: 200px;
+  border: 5px red solid;
+  background-color: #ffffff00;
+  color: red;
+  font-size: 35px;
+  font-weight: 900;
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  margin-left: 150px;
+  margin-top: 100px;
+  cursor: pointer;
+  display: none;
+}
+
+.lose-modal:hover {
+  background-color: green;
+  color:black;
+}
+
+.lose-modal:hover {
+  background-color:red;
+  color:black;
+}
